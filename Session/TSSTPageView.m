@@ -650,7 +650,9 @@
     float xOrigin = viewSize.width * xpercent;
     float yOrigin = viewSize.height * ypercent;
     NSPoint recenter = NSMakePoint(xOrigin - visibleRect.size.width / 2, yOrigin - visibleRect.size.height / 2);
-    [self scrollPoint: recenter];
+    if (recenter.x != INFINITY && recenter.y != INFINITY) {
+        [self scrollPoint: recenter];
+    }
     [self setNeedsDisplay: YES];
 }
 
