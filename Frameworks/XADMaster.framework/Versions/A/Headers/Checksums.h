@@ -1,6 +1,6 @@
-#import "CSHandle.h"
-#import "CSSubHandle.h"
-#import "CSStreamHandle.h"
+#import <XADMaster/CSHandle.h>
+#import <XADMaster/CSSubHandle.h>
+#import <XADMaster/CSStreamHandle.h>
 
 @interface CSHandle (Checksums)
 

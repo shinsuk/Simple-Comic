@@ -1,4 +1,4 @@
-#import "XADString.h"
+#import <XADMaster/XADString.h>
 
 #define XADUnixPathSeparator "/"
 #define XADWindowsPathSeparator "\\"

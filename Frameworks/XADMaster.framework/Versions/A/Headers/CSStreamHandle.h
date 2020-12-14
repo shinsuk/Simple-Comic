@@ -1,5 +1,5 @@
-#import "CSHandle.h"
-#import "CSInputBuffer.h"
+#import <XADMaster/CSHandle.h>
+#import <XADMaster/CSInputBuffer.h>
 
 #define CSStreamHandle XADStreamHandle
 

@@ -1,6 +1,6 @@
 #import <Foundation/Foundation.h>
 
-#import "XADArchiveParser.h"
+#import <XADMaster/XADArchiveParser.h>
 
 #define XADIgnoredForkStyle 0
 #define XADMacOSXForkStyle 1

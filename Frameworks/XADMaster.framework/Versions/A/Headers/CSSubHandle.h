@@ -1,4 +1,4 @@
-#import "CSHandle.h"
+#import <XADMaster/CSHandle.h>
 
 #define CSSubHandle XADSubHandle
 

@@ -741,7 +741,7 @@
 		return;
 	}
 	
-	int modifier = [theEvent modifierFlags];
+    NSEventModifierFlags modifier = [theEvent modifierFlags];
 	NSUserDefaults * defaultsController = [NSUserDefaults standardUserDefaults];
 	int scaling = [[[sessionController session] valueForKey: TSSTPageScaleOptions] intValue];
 	scaling = [sessionController currentPageIsText] ? 2 : scaling;
@@ -808,7 +808,7 @@
 		return;
 	}
 	
-    int modifier = [event modifierFlags];
+    NSEventModifierFlags modifier = [event modifierFlags];
     BOOL shiftKey = modifier & NSShiftKeyMask ? YES : NO;
     NSNumber * charNumber = @([[event charactersIgnoringModifiers] characterAtIndex: 0]);
     NSRect visible = [[self enclosingScrollView] documentVisibleRect];

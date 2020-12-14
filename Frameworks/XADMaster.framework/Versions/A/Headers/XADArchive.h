@@ -1,8 +1,8 @@
 #import <Foundation/Foundation.h>
 
-#import "XADArchiveParser.h"
-#import "XADUnarchiver.h"
-#import "XADException.h"
+#import <XADMaster/XADArchiveParser.h>
+#import <XADMaster/XADUnarchiver.h>
+#import <XADMaster/XADException.h>
 
 typedef int XADAction;
 //typedef off_t xadSize; // deprecated

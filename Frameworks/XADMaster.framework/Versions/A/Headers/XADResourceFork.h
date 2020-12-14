@@ -1,5 +1,5 @@
-#import "CSHandle.h"
-#import "XADException.h"
+#import <XADMaster/CSHandle.h>
+#import <XADMaster/XADException.h>
 
 @interface XADResourceFork:NSObject
 {
