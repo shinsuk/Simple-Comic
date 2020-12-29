@@ -1,0 +1,11 @@
+//
+//  Shared.xcconfig
+//  SimpleComic
+//
+//  Created by Linus on 20201214.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+ALWAYS_SEARCH_USER_PATHS = NO
+FRAMEWORK_SEARCH_PATHS = ${SRCROOT}/Carthage/Build/Mac ${SRCROOT}/../Carthage/Build/Mac

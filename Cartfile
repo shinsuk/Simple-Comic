@@ -1,0 +1,3 @@
+#git "file:///Users/shinsuk/src/github.com/UniversalDetector" "Xcode-12.3"
+github "shinsuk/XADMaster.git" "Xcode-12.3"
+github "shinsuk/universal-detector.git" "Xcode-12.3"
